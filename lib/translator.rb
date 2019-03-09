@@ -12,7 +12,11 @@ def load_library(file_name)
     new_hash["get_meaning"][values[1]] = key
     new_hash["get_emoticon"][values[0]] = values[1]
   end
+<<<<<<< HEAD
   #puts "new_hash = #{new_hash}"
+=======
+  puts "new_hash = #{new_hash}"
+>>>>>>> 14fe9ef424b4058766dfea38f03cb31da5189fda
   new_hash
 end
 
